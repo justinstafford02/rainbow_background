@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbow Background Changer </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/randomcolor@0.6.2/randomColor.min.js"></script>
+</head>
+<body>
+    <script>
+         let color = randomColor(); // This line hopefully would generate a random color, 
+        console.log(color); // Output: Random color code
+    </script>
+    <h1>Rainbow Background Changer </h1>
+    <p>Enter a color of the rainbow and see its associated hex code</p>
+    <input id="colorInput" type="text">
+<!-- from MDN:  <input type="text" id="uname" name="name" /> -->
+
+    <button onclick="checkColor()">Check Color</button>
+
+    <script src="./script.js"></script>
+</body>
+</html>
